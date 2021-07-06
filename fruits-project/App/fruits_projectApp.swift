@@ -2,16 +2,24 @@
 //  fruits_projectApp.swift
 //  fruits-project
 //
-//  Created by TI Digital on 05/07/21.
+//  Created by Reinaldo Riant on 05/07/21.
 //
 
 import SwiftUI
 
 @main
 struct fruits_projectApp: App {
+    @AppStorage("isOnboarding") var isOnboarding:Bool = true
+    
     var body: some Scene {
         WindowGroup {
-            OnBoardingView()
+            if isOnboarding{
+                OnBoardingView()
+            }
+            else{
+                ContentView()
+            }
+            
         }
     }
 }

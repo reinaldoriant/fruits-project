@@ -8,7 +8,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "544A3B44-F61F-4AA7-BAF7-B2B856471EC0"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "fruits-project/View/FruitCardView.swift"
@@ -20,7 +20,7 @@
             landmarkType = "24">
             <Locations>
                <Location
-                  uuid = "544A3B44-F61F-4AA7-BAF7-B2B856471EC0 - c121d86b535b7a2a"
+                  uuid = "544A3B44-F61F-4AA7-BAF7-B2B856471EC0 - c121d86b535b7a05"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -30,12 +30,12 @@
                   urlString = "file:///Users/tidigital/Documents/MyApps(iOS)/SUI2-APP-FRUITS/Students/fruits-project/fruits-project/View/FruitCardView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "18"
-                  endingLineNumber = "18"
-                  offsetFromSymbolStart = "144">
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "188">
                </Location>
                <Location
-                  uuid = "544A3B44-F61F-4AA7-BAF7-B2B856471EC0 - 3ce39ca93e6311db"
+                  uuid = "544A3B44-F61F-4AA7-BAF7-B2B856471EC0 - 3ce39ca93e6311f8"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -45,9 +45,9 @@
                   urlString = "file:///Users/tidigital/Documents/MyApps(iOS)/SUI2-APP-FRUITS/Students/fruits-project/fruits-project/View/FruitCardView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "20"
-                  endingLineNumber = "20"
-                  offsetFromSymbolStart = "212">
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "380">
                </Location>
             </Locations>
          </BreakpointContent>
