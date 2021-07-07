@@ -1,6 +1,6 @@
 # fruits-project
 
-##OBJECTIVE :
+## OBJECTIVE :
 
 - How to develop an iOS 14 application with SwiftUI 2.0 framework CORE TOPIC
 - How to create an Onboarding Screen with Page Tab View CORE TOPIC
