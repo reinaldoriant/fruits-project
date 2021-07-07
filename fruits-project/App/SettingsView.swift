@@ -34,8 +34,12 @@ struct SettingsView: View {
                     //MARK: Section 3
                     GroupBox(
                         label:SettingLabelView(labelText: "Application", labelImage: "apps.iphone")){
-                        Divider().padding(.vertical,4)
-                
+                        SettingsRowView(name:"Developer",content: "Reinaldo Riant Kurnia Perdana")
+                        SettingsRowView(name: "Company",content: "Harian Kompas")
+                        SettingsRowView(name: "Compatibility",content: "iOS 14")
+                        SettingsRowView(name: "website",linkLabel: "Kompas.id",linkDestination: "kompas.id")
+                        SettingsRowView(name: "SwiftUI",content: "2.0")
+                        SettingsRowView(name: "Version",content: "1.1.0")
                     }
                     
                 }//: VSTACK
