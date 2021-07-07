@@ -16,7 +16,7 @@ struct SettingLabelView: View {
     //MARK: Body
     var body: some View {
         HStack {
-            Text("Fruits".uppercased()).fontWeight(.bold)
+            Text(labelText.uppercased()).fontWeight(.bold)
             Spacer()
             Image(systemName: labelImage)
         }

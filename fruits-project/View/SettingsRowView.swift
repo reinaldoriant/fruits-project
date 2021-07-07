@@ -26,7 +26,7 @@ struct SettingsRowView: View {
                 if (content != nil) {
                     Text(content!).font(.footnote)
                 }else if(linkLabel != nil && linkDestination != nil){
-                    Link(linkLabel!,destination:URL(string: "https://\(linkDestination!)")!)
+                    Link(linkLabel!,destination:URL(string: "https://\(linkDestination!)")!).font(.footnote)
                     Image(systemName: "arrow.up.right.square").foregroundColor(.pink)
                 } else {
                     /*@START_MENU_TOKEN@*/EmptyView()/*@END_MENU_TOKEN@*/
