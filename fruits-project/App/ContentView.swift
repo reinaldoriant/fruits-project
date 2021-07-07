@@ -17,8 +17,14 @@ struct ContentView: View {
         NavigationView{
             List{
                 ForEach(fruits.shuffled()){item in
-                    FruitsRowView(fruit: item)
-                        .padding(.vertical,4)
+                    NavigationLink(
+                        destination: FruitDetailView(fruit: item))
+                    {
+                        FruitsRowView(fruit: item)
+                            .padding(.vertical,4)
+                        
+                    }
+                    
                 }
             }
             .navigationTitle("Fruits")
@@ -26,7 +32,7 @@ struct ContentView: View {
     }
 }
 
-    // MARK: Previews
+// MARK: Previews
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView(fruits: fruitsData)
